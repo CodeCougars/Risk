@@ -1,0 +1,64 @@
+[
+    {
+        "name": "Great Britain",
+        "pos": [370, 60]
+    },
+    {
+        "name": "Iceland",
+        "pos": [330, 40]
+    },
+    {
+        "name": "Scandinavia",
+        "pos": [431, 24]
+    },
+    {
+        "name": "Northern Europe",
+        "pos": [421, 78]
+    },
+    {
+        "name": "Western Europe",
+        "pos": [373, 105]
+    },
+    {
+        "name": "Southern Europe",
+        "pos": [432, 114]
+    },
+    {
+        "name": "Ukraine",
+        "pos": [485, 26]
+    },
+
+    {
+        "name": "Congo",
+        "pos": [444, 285]
+    },
+    {
+        "name": "East Africa",
+        "pos": [498, 230]
+    },
+    {
+        "name": "Egypt",
+        "pos": [446, 185]
+    },
+    {
+        "name": "Madagascar",
+        "pos": [580, 400]
+    },
+    {
+        "name": "North Africa",
+        "pos": [336, 166]
+    },
+    {
+        "name": "South Africa",
+        "pos": [455, 362]
+    },
+
+    {
+        "name": "Middle East",
+        "pos": [509, 145]
+    },
+    {
+        "name": "Afghanistan",
+        "pos": [582, 87]
+    }
+]
