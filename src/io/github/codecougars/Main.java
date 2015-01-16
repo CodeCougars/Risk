@@ -3,7 +3,7 @@ package io.github.codecougars;
 public class Main {
 
     public static void main(String[] args) {
-        final GameFrame frame = new GameFrame();
+        final Game frame = new Game();
 
         frame.init();
         frame.start();
