@@ -32,7 +32,6 @@ public class ClickMap {
 
                     // check if opaque
                     if (!((pixel>>24) == 0x00)) {
-                        System.out.println(x + territory.pos[0] + " " + (y + territory.pos[1]));
                         map[x + territory.pos[0]][y + territory.pos[1]] = i;
                     }
                 }
@@ -41,10 +40,8 @@ public class ClickMap {
     }
 
     public Territory getTerritoryAt(int x, int y) {
-        System.out.println(x + " " + y);
         byte number = map[x][y];
         if (number > 0) {
-            System.out.println(number);
             return territories.get(map[x][y] - 1);
         }
         else {

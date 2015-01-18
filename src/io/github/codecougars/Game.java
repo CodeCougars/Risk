@@ -24,6 +24,9 @@ public class Game extends JFrame {
 
     static String REGIONS_FILE = "regions.json";
 
+    static Color DEFAULT_COLOR = new Color(106, 146, 170);
+    static Color FOCUS_COLOR = new Color(61, 101, 138);
+
     ClickMap clickMap;
 
     JPanel frame;
@@ -38,6 +41,8 @@ public class Game extends JFrame {
     ArrayList<Player> players = new ArrayList<Player>();
 
     BufferedImage background;
+
+    Territory currentlyInFocus = null;
 
     public void init() {
         setTitle("Risky Risk");
@@ -123,6 +128,34 @@ public class Game extends JFrame {
                 if (clicked != null) {
                     System.out.println(clicked.name);
                 }
+            }
+        });
+
+        frame.addMouseMotionListener(new MouseAdapter() {
+            @Override
+            public void mouseMoved(MouseEvent mouseEvent) {
+                super.mouseMoved(mouseEvent);
+
+                Territory hoveredOver = clickMap.getTerritoryAt(mouseEvent.getX(), mouseEvent.getY());
+
+                if (hoveredOver != null) {
+                    // Change focus or start focusing
+                    if (currentlyInFocus != null) {
+                        currentlyInFocus.setColor(DEFAULT_COLOR);
+                    }
+
+                    Territory territory = territories.get(hoveredOver.id);
+                    currentlyInFocus = territory;
+                    territory.setColor(FOCUS_COLOR);
+                }
+                else {
+                    if (currentlyInFocus != null) {
+                        currentlyInFocus.setColor(DEFAULT_COLOR);
+                    }
+                }
+
+                drawMap();
+                redraw();
             }
         });
 
@@ -215,7 +248,8 @@ public class Game extends JFrame {
                 e.printStackTrace();
             }
 
-            Territory territory = new Territory(name, position, img);
+            Territory territory = new Territory(i, name, position, img);
+            territory.setColor(DEFAULT_COLOR);
 
             territories.add(territory);
         }
