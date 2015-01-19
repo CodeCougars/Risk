@@ -24,7 +24,7 @@ public class Game extends JFrame {
 
     static String REGIONS_FILE = "regions.json";
 
-    static Color DEFAULT_COLOR = new Color(106, 146, 170);
+    static Color DEFAULT_COLOR = new Color(117, 133, 170);
     static Color FOCUS_COLOR = new Color(61, 101, 138);
 
     ClickMap clickMap;
@@ -179,7 +179,7 @@ public class Game extends JFrame {
             g.drawImage(background, 0, 0, this);
 
             /*
-            // fuck this
+            // debugging
             for (int x = 0; x < clickMap.map.length; x++) {
                 for (int y = 0; y < clickMap.map[x].length; y++) {
                     g.setColor(new Color(45, 138, 22));
