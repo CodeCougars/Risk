@@ -60,5 +60,37 @@
     {
         "name": "Afghanistan",
         "pos": [581, 87]
+    },
+    {
+        "name": "Ural",
+        "pos": [599, 17]
+    },
+    {
+        "name": "Siberia",
+        "pos": [648, 0]
+    },
+    {
+        "name": "India",
+        "pos": [646, 161]
+    },
+    {
+        "name": "China",
+        "pos": [691, 113]
+    },
+    {
+        "name": "Mongolia",
+        "pos": [730, 94]
+    },
+    {
+        "name": "Irkutsk",
+        "pos": [729, 50]
+    },
+    {
+        "name": "Yakutsk",
+        "pos": [735, 13]
+    },
+    {
+        "name": "Kamchatka",
+        "pos": [859, 27]
     }
 ]

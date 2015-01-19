@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18f1f750-17d0-4c20-969a-9c935ec5b281" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Game.class" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Game.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/RiskCalculator.class" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/RiskCalculator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Territory.class" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Territory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/Game.java" afterPath="$PROJECT_DIR$/src/io/github/codecougars/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/Main.java" afterPath="$PROJECT_DIR$/src/io/github/codecougars/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/RiskCalculator.java" afterPath="$PROJECT_DIR$/src/io/github/codecougars/RiskCalculator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Afghanistan.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Afghanistan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Congo.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Congo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/East Africa.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/East Africa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Egypt.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Egypt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Great Britain.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Great Britain.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Iceland.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Iceland.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Madagascar.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Madagascar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Middle East.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Middle East.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/North Africa.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/North Africa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Northern Europe.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Northern Europe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Risk_map.xcf" afterPath="$PROJECT_DIR$/Risk_map.xcf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Scandinavia.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Scandinavia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/South Africa.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/South Africa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Southern Europe.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Southern Europe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Ukraine.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Ukraine.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Western Europe.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Western Europe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/bg.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/regions.json" afterPath="$PROJECT_DIR$/src/io/github/codecougars/regions.json" />
     </list>
     <ignored path="Risk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,10 +44,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20107238" vertical-offset="0" max-vertical-offset="840">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
               <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
               <folding />
             </state>
@@ -68,8 +79,8 @@
       <file leaf-file-name="ClickMap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/ClickMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="282" max-vertical-offset="840">
-              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="840">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,13 +101,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="regions.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="regions.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/regions.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75" vertical-offset="435" max-vertical-offset="1035">
-              <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.91689754" vertical-offset="733" max-vertical-offset="1515">
+              <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ural.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/images/regions/Ural.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -107,13 +125,6 @@
               <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Iceland.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/images/regions/Iceland.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -157,11 +168,11 @@
         <option value="$PROJECT_DIR$/src/io/github/codecougars/Player.java" />
         <option value="$PROJECT_DIR$/src/io/github/codecougars/GameState.java" />
         <option value="$PROJECT_DIR$/src/io/github/codecougars/ClickMap.java" />
-        <option value="$PROJECT_DIR$/src/io/github/codecougars/regions.json" />
         <option value="$PROJECT_DIR$/src/io/github/codecougars/Game.java" />
         <option value="$PROJECT_DIR$/src/io/github/codecougars/Territory.java" />
         <option value="$PROJECT_DIR$/src/io/github/codecougars/RiskCalculator.java" />
         <option value="$PROJECT_DIR$/src/io/github/codecougars/Main.java" />
+        <option value="$PROJECT_DIR$/src/io/github/codecougars/regions.json" />
       </list>
     </option>
   </component>
@@ -514,11 +525,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/images/regions/East Africa.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/images/regions/Southern Europe.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -907,24 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/regions.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75" vertical-offset="435" max-vertical-offset="1035">
-          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/ClickMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="282" max-vertical-offset="840">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/Territory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="600">
@@ -965,8 +953,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20107238" vertical-offset="0" max-vertical-offset="840">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
           <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/images/regions/Ural.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/ClickMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="840">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/regions.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.91689754" vertical-offset="733" max-vertical-offset="1515">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
           <folding />
         </state>
       </provider>
