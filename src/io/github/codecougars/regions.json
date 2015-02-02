@@ -1,96 +1,284 @@
 [
     {
         "name": "Great Britain",
-        "pos": [370, 60]
+        "pos": [370, 60],
+        "neighbours": [
+            "Iceland",
+            "Scandinavia",
+            "Northern Europe",
+            "Western Europe"
+        ]
     },
     {
         "name": "Iceland",
-        "pos": [330, 40]
+        "pos": [330, 40],
+        "neighbours": [
+            "Great Britain"
+        ]
     },
     {
         "name": "Scandinavia",
-        "pos": [431, 24]
+        "pos": [431, 24],
+        "neighbours": [
+            "Great Britain",
+            "Northern Europe",
+            "Ukraine"
+        ]
     },
     {
         "name": "Northern Europe",
-        "pos": [421, 78]
+        "pos": [421, 78],
+        "neighbours": [
+            "Great Britain",
+            "Scandinavia",
+            "Western Europe",
+            "Southern Europe",
+            "Ukraine"
+        ]
     },
     {
         "name": "Western Europe",
-        "pos": [373, 105]
+        "pos": [373, 105],
+        "neighbours": [
+            "Great Britain",
+            "North Africa",
+            "Northern Europe",
+            "Southern Europe"
+        ]
     },
     {
         "name": "Southern Europe",
-        "pos": [432, 114]
+        "pos": [432, 114],
+        "neighbours": [
+            "Western Europe",
+            "Northern Europe",
+            "Ukraine",
+            "Middle East"
+        ]
     },
     {
         "name": "Ukraine",
-        "pos": [485, 26]
+        "pos": [485, 26],
+        "neighbours": [
+            "Scandinavia",
+            "Northern Europe",
+            "Southern Europe",
+            "Middle East",
+            "Afghanistan",
+            "Ural"
+        ]
     },
 
     {
         "name": "Congo",
-        "pos": [444, 285]
+        "pos": [444, 285],
+        "neighbours": [
+            "North Africa",
+            "East Africa",
+            "South Africa"
+        ]
     },
     {
         "name": "East Africa",
-        "pos": [498, 230]
+        "pos": [498, 230],
+        "neighbours": [
+            "Congo",
+            "South Africa",
+            "Egypt",
+            "North Africa",
+            "Madagascar"
+        ]
     },
     {
         "name": "Egypt",
-        "pos": [446, 185]
+        "pos": [446, 185],
+        "neighbours": [
+            "North Africa",
+            "East Africa",
+            "Middle East"
+        ]
     },
     {
         "name": "Madagascar",
-        "pos": [580, 400]
+        "pos": [580, 400],
+        "neighbours": [
+            "South Africa",
+            "East Africa"
+        ]
     },
     {
         "name": "North Africa",
-        "pos": [336, 166]
+        "pos": [336, 166],
+        "neighbours": [
+            "Western Europe",
+            "East Africa",
+            "Egypt",
+            "Congo"
+        ]
     },
     {
         "name": "South Africa",
-        "pos": [455, 362]
+        "pos": [455, 362],
+        "neighbours": [
+            "Congo",
+            "East Africa",
+            "Madagascar"
+        ]
     },
 
     {
         "name": "Middle East",
-        "pos": [509, 145]
+        "pos": [509, 145],
+        "neighbours": [
+            "Southern Europe",
+            "Egypt",
+            "Ukraine",
+            "Afghanistan",
+            "India"
+        ]
     },
     {
         "name": "Afghanistan",
-        "pos": [581, 87]
+        "pos": [581, 87],
+        "neighbours": [
+            "Ukraine",
+            "Middle East",
+            "Ural",
+            "China",
+            "India"
+        ]
     },
     {
         "name": "Ural",
-        "pos": [599, 17]
+        "pos": [599, 17],
+        "neighbours": [
+            "Ukraine",
+            "Afghanistan",
+            "Siberia",
+            "China"
+        ]
     },
     {
         "name": "Siberia",
-        "pos": [648, 0]
+        "pos": [648, 0],
+        "neighbours": [
+            "Ural",
+            "China",
+            "Mongolia",
+            "Irkutsk",
+            "Yakutsk"
+        ]
     },
     {
         "name": "India",
-        "pos": [646, 161]
+        "pos": [646, 161],
+        "neighbours": [
+            "Middle East",
+            "Afghanistan",
+            "China",
+            "Siam"
+        ]
     },
     {
         "name": "China",
-        "pos": [691, 113]
+        "pos": [691, 113],
+        "neighbours": [
+            "India",
+            "Siam",
+            "Afghanistan",
+            "Ural",
+            "Siberia",
+            "Mongolia"
+        ]
     },
     {
         "name": "Mongolia",
-        "pos": [730, 94]
+        "pos": [730, 94],
+        "neighbours": [
+            "China",
+            "Irkutsk",
+            "Japan",
+            "Siberia",
+            "Kamchatka"
+        ]
     },
     {
         "name": "Irkutsk",
-        "pos": [729, 50]
+        "pos": [729, 50],
+        "neighbours": [
+            "Siberia",
+            "Mongolia",
+            "Yakutsk",
+            "Kamchatka"
+        ]
     },
     {
         "name": "Yakutsk",
-        "pos": [735, 13]
+        "pos": [735, 13],
+        "neighbours": [
+            "Siberia",
+            "Irkutsk",
+            "Kamchatka"
+        ]
     },
     {
         "name": "Kamchatka",
-        "pos": [859, 27]
+        "pos": [859, 27],
+        "neighbours": [
+            "Yakutsk",
+            "Irkutsk",
+            "Mongolia",
+            "Japan"
+        ]
+    },
+    {
+        "name":"Japan",
+        "pos": [920, 140],
+        "neighbours": [
+            "Kamchatka",
+            "Mongolia"
+        ]
+    },
+    {
+        "name":"Siam",
+        "pos": [782, 208],
+        "neighbours": [
+            "China",
+            "India",
+            "Indonesia"
+        ]
+    },
+    {
+        "name":"Eastern Australia",
+        "pos": [924, 387],
+        "neighbours": [
+            "Western Australia",
+            "Western Guinea"
+        ]
+    },
+    {
+        "name":"Western Australia",
+        "pos": [861, 399],
+        "neighbours": [
+            "Indonesia",
+            "Eastern Australia"
+        ]
+    },
+    {
+        "name":"Western Guinea",
+        "pos": [935, 325],
+        "neighbours": [
+            "Eastern Australia",
+            "Indonesia"
+        ]
+    },
+    {
+        "name":"Indonesia",
+        "pos": [802, 252],
+        "neighbours": [
+            "Siam",
+            "Western Guinea",
+            "Western Australia"
+        ]
     }
 ]

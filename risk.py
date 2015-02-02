@@ -52,7 +52,16 @@ def export_layers(img, drw, path, only_visible=True, flatten=False, remove_offse
 	dupe = img.duplicate()
 	layers = get_layers(dupe.layers, only_visible)
 
+        layersStr = ""
 	for layer in layers:
+                x_off, y_off = layer.offsets
+                name = layer.name.decode('utf-8')
+
+                layersStr += "{\n"
+                layersStr += "\"name\":" + "\"" + name + "\",\n"
+                layersStr += "\"" + "pos" + "\": [" + str(x_off) + ", " + str(y_off) + "]\n"
+                layersStr += "},\n"
+
 		layer.visible = 1
 		filename = format_filename(img, layer)
 		fullpath = os.path.join(path, filename);
@@ -66,11 +75,14 @@ def export_layers(img, drw, path, only_visible=True, flatten=False, remove_offse
 			pdb.plug_in_zealouscrop(tmp, tmp.layers[0])
 		pdb.file_png_save(tmp, tmp.layers[0], fullpath, filename, 0, 9, 1, 1, 1, 1, 1)
 		dupe.remove_layer(layer)
+
+        json = open(os.path.join(path, "regions.json"), "w")
+        json.write(layersStr)
 			
 register(
-	proc_name=("python-fu-export-layers"),
-	blurb=("Export Layers as PNG"),
-	help=("Export layers as individual PNG files."),
+	proc_name=("python-fu-risk"),
+	blurb=("Risk export"),
+	help=("Risk export"),
 	author=("Chris Mohler <cr33dog@gmail.com>"),
 	copyright=("Chris Mohler"),
 	date=("2009"),
