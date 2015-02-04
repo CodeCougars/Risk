@@ -10,7 +10,7 @@ public class Player {
     public String name;
     public boolean isAI = false;
     public Color color;
-    public int reinforcements = 0;
+    public int reinforcements = 6;
 
     public Player(String n) {
         name = n;

@@ -2,72 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18f1f750-17d0-4c20-969a-9c935ec5b281" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/github/codecougars/Action.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/export_layers-0.6.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Afghanistan.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Afghanistan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Afghanistan.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Afghanistan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/China.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/China.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/China.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/China.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Congo.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Congo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Congo.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Congo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/East Africa.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/East Africa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/East Africa.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/East Africa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Egypt.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Egypt.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Egypt.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Egypt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Action.class" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Action.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Game$1.class" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Game$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Game$2.class" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Game$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Game$3.class" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Game$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Game$GamePanel.class" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Game$GamePanel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Game.class" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Game.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Great Britain.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Great Britain.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Great Britain.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Great Britain.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Iceland.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Iceland.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Iceland.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Iceland.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/India.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/India.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/India.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/India.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Irkutsk.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Irkutsk.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Irkutsk.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Irkutsk.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Japan.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Japan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Japan.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Japan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Kamchatka.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Kamchatka.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Kamchatka.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Kamchatka.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Madagascar.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Madagascar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Madagascar.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Madagascar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Middle East.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Middle East.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Middle East.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Middle East.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Mongolia.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Mongolia.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Mongolia.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Mongolia.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/North Africa.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/North Africa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/North Africa.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/North Africa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Northern Europe.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Northern Europe.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Northern Europe.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Northern Europe.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Player.class" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Player.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Risk_map.xcf" afterPath="$PROJECT_DIR$/Risk_map.xcf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Scandinavia.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Scandinavia.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Scandinavia.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Scandinavia.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Siam.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Siam.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Siam.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Siam.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Siberia.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Siberia.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Siberia.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Siberia.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/South Africa.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/South Africa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/South Africa.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/South Africa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Southern Europe.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Southern Europe.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Southern Europe.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Southern Europe.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Territory.class" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/Territory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Ukraine.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Ukraine.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Ukraine.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Ukraine.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Ural.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Ural.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Ural.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Ural.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Western Europe.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Western Europe.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Western Europe.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Western Europe.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Yakutsk.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/Yakutsk.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Yakutsk.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/Yakutsk.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/bg.png" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/images/regions/bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/bg.png" afterPath="$PROJECT_DIR$/src/io/github/codecougars/images/regions/bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/Action.java" afterPath="$PROJECT_DIR$/src/io/github/codecougars/Action.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/Game.java" afterPath="$PROJECT_DIR$/src/io/github/codecougars/Game.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/Player.java" afterPath="$PROJECT_DIR$/src/io/github/codecougars/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/RiskCalculator.java" afterPath="$PROJECT_DIR$/src/io/github/codecougars/RiskCalculator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/Territory.java" afterPath="$PROJECT_DIR$/src/io/github/codecougars/Territory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/regions.json" afterPath="$PROJECT_DIR$/out/production/Risk/io/github/codecougars/regions.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/codecougars/regions.json" afterPath="$PROJECT_DIR$/src/io/github/codecougars/regions.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Risk.iws" />
@@ -96,46 +43,21 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="840">
-              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="840">
+              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1696" max-vertical-offset="5820">
-              <caret line="135" column="52" selection-start-line="135" selection-start-column="52" selection-end-line="135" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.38130563" vertical-offset="3853" max-vertical-offset="6855">
+              <caret line="285" column="91" selection-start-line="285" selection-start-column="91" selection-end-line="285" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#961#972#0" expanded="true" />
-                <element signature="e#1021#1029#0" expanded="true" />
-                <element signature="e#1078#1086#0" expanded="true" />
-                <element signature="e#4187#4703#0" expanded="true" />
-                <element signature="e#4702#4703#0" expanded="true" />
-                <element signature="e#4776#5740#0" expanded="true" />
-                <element signature="e#5739#5740#0" expanded="true" />
-                <element signature="e#5813#6016#0" expanded="true" />
-                <element signature="e#6015#6016#0" expanded="true" />
-                <element signature="e#6243#6244#0" expanded="true" />
-                <element signature="e#6295#6296#0" expanded="true" />
-                <element signature="e#8253#8254#0" expanded="true" />
-                <element signature="e#8335#8336#0" expanded="true" />
-                <element signature="e#11149#11168#0" expanded="true" />
-                <element signature="e#11561#11572#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GOL.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../ScalaGOL/src/GOL.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5956679" vertical-offset="1185" max-vertical-offset="2295">
-              <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="46" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -143,11 +65,10 @@
       <file leaf-file-name="Action.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/Action.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="753" max-vertical-offset="1455">
+              <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
               <folding>
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,8 +87,8 @@
       <file leaf-file-name="ClickMap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/ClickMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="840">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="825">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -177,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/Player.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,7 +109,7 @@
       <file leaf-file-name="regions.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/regions.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="19.791666" vertical-offset="3655" max-vertical-offset="4335">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3655" max-vertical-offset="4335">
               <caret line="212" column="9" selection-start-line="212" selection-start-column="9" selection-end-line="212" selection-end-column="9" />
               <folding />
             </state>
@@ -198,8 +119,8 @@
       <file leaf-file-name="RiskCalculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/RiskCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="855">
-              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="855">
+              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -208,10 +129,11 @@
       <file leaf-file-name="Territory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/Territory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1245">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="728" max-vertical-offset="1410">
+              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#644#663#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -230,13 +152,13 @@
         <option value="$PROJECT_DIR$/src/io/github/codecougars/GameFrame.java" />
         <option value="$PROJECT_DIR$/src/io/github/codecougars/GameState.java" />
         <option value="$PROJECT_DIR$/src/io/github/codecougars/ClickMap.java" />
-        <option value="$PROJECT_DIR$/src/io/github/codecougars/RiskCalculator.java" />
         <option value="$PROJECT_DIR$/src/io/github/codecougars/Main.java" />
-        <option value="$PROJECT_DIR$/src/io/github/codecougars/Player.java" />
         <option value="$PROJECT_DIR$/src/io/github/codecougars/images/regions/regions.json" />
-        <option value="$PROJECT_DIR$/src/io/github/codecougars/Action.java" />
         <option value="$PROJECT_DIR$/src/io/github/codecougars/regions.json" />
         <option value="$PROJECT_DIR$/src/io/github/codecougars/Territory.java" />
+        <option value="$PROJECT_DIR$/src/io/github/codecougars/Player.java" />
+        <option value="$PROJECT_DIR$/src/io/github/codecougars/Action.java" />
+        <option value="$PROJECT_DIR$/src/io/github/codecougars/RiskCalculator.java" />
         <option value="$PROJECT_DIR$/src/io/github/codecougars/Game.java" />
       </list>
     </option>
@@ -269,7 +191,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -331,6 +252,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,7 +263,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ScalaGOL/src/GOL.scala" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GolPracticeButtons" />
     <property name="dynamic.classpath" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
@@ -583,24 +505,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1440" height="875" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="25" width="1440" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988358" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12160414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24838293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.076326005" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32082793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -610,6 +531,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32082793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -630,7 +552,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -639,31 +561,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2430">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#961#972#0" expanded="true" />
-            <element signature="e#1021#1029#0" expanded="true" />
-            <element signature="e#1078#1086#0" expanded="true" />
-            <element signature="e#4187#4703#0" expanded="true" />
-            <element signature="e#4702#4703#0" expanded="true" />
-            <element signature="e#4776#5740#0" expanded="true" />
-            <element signature="e#5739#5740#0" expanded="true" />
-            <element signature="e#5813#6016#0" expanded="true" />
-            <element signature="e#6015#6016#0" expanded="true" />
-            <element signature="e#6243#6244#0" expanded="true" />
-            <element signature="e#6295#6296#0" expanded="true" />
-            <element signature="e#8253#8254#0" expanded="true" />
-            <element signature="e#8335#8336#0" expanded="true" />
-            <element signature="e#11149#11168#0" expanded="true" />
-            <element signature="e#11561#11572#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/regions.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1035">
@@ -703,6 +600,7 @@
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#644#663#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -721,21 +619,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#961#972#0" expanded="true" />
-            <element signature="e#1021#1029#0" expanded="true" />
-            <element signature="e#1078#1086#0" expanded="true" />
-            <element signature="e#4187#4703#0" expanded="true" />
-            <element signature="e#4702#4703#0" expanded="true" />
-            <element signature="e#4776#5740#0" expanded="true" />
-            <element signature="e#5739#5740#0" expanded="true" />
-            <element signature="e#5813#6016#0" expanded="true" />
-            <element signature="e#6015#6016#0" expanded="true" />
-            <element signature="e#6243#6244#0" expanded="true" />
-            <element signature="e#6295#6296#0" expanded="true" />
-            <element signature="e#8253#8254#0" expanded="true" />
-            <element signature="e#8335#8336#0" expanded="true" />
-            <element signature="e#11149#11168#0" expanded="true" />
-            <element signature="e#11561#11572#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -777,6 +660,7 @@
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#644#663#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -795,21 +679,6 @@
           <caret line="83" column="43" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#961#972#0" expanded="true" />
-            <element signature="e#1021#1029#0" expanded="true" />
-            <element signature="e#1078#1086#0" expanded="true" />
-            <element signature="e#4187#4703#0" expanded="true" />
-            <element signature="e#4702#4703#0" expanded="true" />
-            <element signature="e#4776#5740#0" expanded="true" />
-            <element signature="e#5739#5740#0" expanded="true" />
-            <element signature="e#5813#6016#0" expanded="true" />
-            <element signature="e#6015#6016#0" expanded="true" />
-            <element signature="e#6243#6244#0" expanded="true" />
-            <element signature="e#6295#6296#0" expanded="true" />
-            <element signature="e#8253#8254#0" expanded="true" />
-            <element signature="e#8335#8336#0" expanded="true" />
-            <element signature="e#11149#11168#0" expanded="true" />
-            <element signature="e#11561#11572#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -851,6 +720,7 @@
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#644#663#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -869,21 +739,6 @@
           <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#961#972#0" expanded="true" />
-            <element signature="e#1021#1029#0" expanded="true" />
-            <element signature="e#1078#1086#0" expanded="true" />
-            <element signature="e#4187#4703#0" expanded="true" />
-            <element signature="e#4702#4703#0" expanded="true" />
-            <element signature="e#4776#5740#0" expanded="true" />
-            <element signature="e#5739#5740#0" expanded="true" />
-            <element signature="e#5813#6016#0" expanded="true" />
-            <element signature="e#6015#6016#0" expanded="true" />
-            <element signature="e#6243#6244#0" expanded="true" />
-            <element signature="e#6295#6296#0" expanded="true" />
-            <element signature="e#8253#8254#0" expanded="true" />
-            <element signature="e#8335#8336#0" expanded="true" />
-            <element signature="e#11149#11168#0" expanded="true" />
-            <element signature="e#11561#11572#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -910,6 +765,7 @@
           <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#644#663#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -928,21 +784,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#961#972#0" expanded="true" />
-            <element signature="e#1021#1029#0" expanded="true" />
-            <element signature="e#1078#1086#0" expanded="true" />
-            <element signature="e#4187#4703#0" expanded="true" />
-            <element signature="e#4702#4703#0" expanded="true" />
-            <element signature="e#4776#5740#0" expanded="true" />
-            <element signature="e#5739#5740#0" expanded="true" />
-            <element signature="e#5813#6016#0" expanded="true" />
-            <element signature="e#6015#6016#0" expanded="true" />
-            <element signature="e#6243#6244#0" expanded="true" />
-            <element signature="e#6295#6296#0" expanded="true" />
-            <element signature="e#8253#8254#0" expanded="true" />
-            <element signature="e#8335#8336#0" expanded="true" />
-            <element signature="e#11149#11168#0" expanded="true" />
-            <element signature="e#11561#11572#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -961,6 +802,7 @@
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#644#663#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -979,21 +821,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#961#972#0" expanded="true" />
-            <element signature="e#1021#1029#0" expanded="true" />
-            <element signature="e#1078#1086#0" expanded="true" />
-            <element signature="e#4187#4703#0" expanded="true" />
-            <element signature="e#4702#4703#0" expanded="true" />
-            <element signature="e#4776#5740#0" expanded="true" />
-            <element signature="e#5739#5740#0" expanded="true" />
-            <element signature="e#5813#6016#0" expanded="true" />
-            <element signature="e#6015#6016#0" expanded="true" />
-            <element signature="e#6243#6244#0" expanded="true" />
-            <element signature="e#6295#6296#0" expanded="true" />
-            <element signature="e#8253#8254#0" expanded="true" />
-            <element signature="e#8335#8336#0" expanded="true" />
-            <element signature="e#11149#11168#0" expanded="true" />
-            <element signature="e#11561#11572#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1036,45 +863,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/ClickMap.java">
+    <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/regions.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3655" max-vertical-offset="4335">
+          <caret line="212" column="9" selection-start-line="212" selection-start-column="9" selection-end-line="212" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/RiskCalculator.java">
+    <entry file="file://$PROJECT_DIR$/../ScalaGOL/src/GOL.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.6233244" vertical-offset="1185" max-vertical-offset="2295">
+          <caret line="113" column="11" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar!/java/awt/event/MouseAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23659305" vertical-offset="0" max-vertical-offset="634">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/Territory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="664" max-vertical-offset="1410">
+          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#644#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/ClickMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="825">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/Action.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="753" max-vertical-offset="1455">
+          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
           <folding>
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="840">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/regions.json">
+    <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/RiskCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="19.791666" vertical-offset="3655" max-vertical-offset="4335">
-          <caret line="212" column="9" selection-start-line="212" selection-start-column="9" selection-end-line="212" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="855">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1082,17 +933,7 @@
     <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/Territory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1245">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1101,34 +942,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/io/github/codecougars/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1696" max-vertical-offset="5820">
-          <caret line="135" column="52" selection-start-line="135" selection-start-column="52" selection-end-line="135" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.38130563" vertical-offset="3853" max-vertical-offset="6855">
+          <caret line="285" column="91" selection-start-line="285" selection-start-column="91" selection-end-line="285" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#961#972#0" expanded="true" />
-            <element signature="e#1021#1029#0" expanded="true" />
-            <element signature="e#1078#1086#0" expanded="true" />
-            <element signature="e#4187#4703#0" expanded="true" />
-            <element signature="e#4702#4703#0" expanded="true" />
-            <element signature="e#4776#5740#0" expanded="true" />
-            <element signature="e#5739#5740#0" expanded="true" />
-            <element signature="e#5813#6016#0" expanded="true" />
-            <element signature="e#6015#6016#0" expanded="true" />
-            <element signature="e#6243#6244#0" expanded="true" />
-            <element signature="e#6295#6296#0" expanded="true" />
-            <element signature="e#8253#8254#0" expanded="true" />
-            <element signature="e#8335#8336#0" expanded="true" />
-            <element signature="e#11149#11168#0" expanded="true" />
-            <element signature="e#11561#11572#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ScalaGOL/src/GOL.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5956679" vertical-offset="1185" max-vertical-offset="2295">
-          <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>

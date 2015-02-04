@@ -1,5 +1,9 @@
 package io.github.codecougars;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 /**
  * Created by as on 02/02/15.
  */
@@ -16,7 +20,7 @@ public class Action {
         return this;
     }
 
-    public Action attack(Player p, Territory territory, int troops) {
+    public static Action attack(Player p, Territory territory, int troops) {
         Action a = new Action();
 
         a.type = TYPE_ATTACK;
@@ -27,13 +31,63 @@ public class Action {
         return a;
     }
 
-    public Action reinforce(Territory territory, int troops) {
+    public static Action reinforce(Territory territory, int troops) {
         Action a = new Action();
 
         a.type = TYPE_REINFORCE;
         a.territory = territory;
+        a.player = territory.owner;
         a.troops = troops;
 
         return a;
+    }
+
+    public String describe() {
+        return (type == TYPE_ATTACK ? "attack: " : "reinforce: ") +
+                player.name + " -> " + territory.name + " (" + troops + " troops)";
+    }
+
+    public static ArrayList<Action> mergeActions(List<Action> actions) {
+        ArrayList<Action> mergedActions = new ArrayList<Action>();
+
+        for (Action action : actions) {
+            boolean found = false;
+            for (Action a : mergedActions) {
+                if (a.player == action.player && a.territory == action.territory) {
+                    a.troops += action.troops;
+                    found = true;
+                }
+            }
+
+            if (!found) {
+                mergedActions.add(action);
+            }
+        }
+
+        return mergedActions;
+    }
+
+    /*
+    public static ArrayList<Conflict> getConflictingActions(List<Action> actions) {
+        ArrayList<Conflict> conflicts = new ArrayList<Conflict>();
+
+        for (Action action : actions) {
+            if (conflicts.)
+        }
+
+        return conflicts;
+    }
+    */
+
+    public class Conflict {
+        Player attacker;
+        Player defender;
+        int defenderTroops;
+        int attackerTroops;
+        Territory territory;
+
+        public Conflict() {
+
+        }
     }
 }

@@ -14,6 +14,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
+import java.util.function.Consumer;
 
 public class Game extends JFrame {
     static int WINDOW_WIDTH = 1200;
@@ -56,7 +57,6 @@ public class Game extends JFrame {
         setName("Risk");
         setDefaultCloseOperation(EXIT_ON_CLOSE); // close when close button pressed
         setLocationRelativeTo(null); // center
-        setVisible(true);
 
         Container window = getContentPane();
 
@@ -121,6 +121,8 @@ public class Game extends JFrame {
         initRegions(); // territories
         clickMap = new ClickMap(territories, FRAME_WIDTH, FRAME_HEIGHT);
         initPlayers();
+
+        setVisible(true);
         draw();
 
         /* Click Action */
@@ -130,13 +132,21 @@ public class Game extends JFrame {
             public void mouseClicked(MouseEvent mouseEvent) {
                 super.mouseClicked(mouseEvent);
 
+                Player player = getHumanPlayer();
                 Territory clicked = clickMap.getTerritoryAt(mouseEvent.getX(), mouseEvent.getY());
-                if (clicked != null) {
-                    for (Territory t : clicked.neighbours) {
-                        System.out.print(t.name + " ");
+
+                if (clicked != null && player.reinforcements > 0) {
+                    if (clicked.owner == player) {
+                        actions.add(Action.reinforce(clicked, 1));
+                        player.reinforcements--;
                     }
-                    System.out.print("\n");
+                    else if (clicked.isNeighbouringTerritoryOfPlayer(player)) {
+                        actions.add(Action.attack(player, clicked, 1));
+                        player.reinforcements--;
+                    }
                 }
+
+                redraw();
             }
         });
 
@@ -166,7 +176,6 @@ public class Game extends JFrame {
                     }
                 }
 
-                draw();
                 redraw();
             }
         });
@@ -187,8 +196,10 @@ public class Game extends JFrame {
 
     // redraws the main view
     public void redraw() {
+        draw();
+
+        frame.validate();
         frame.repaint();
-        frame.revalidate();
     }
 
     // Updates the other UI elements
@@ -236,25 +247,99 @@ public class Game extends JFrame {
             g.drawString(currentlyInFocus.name,
                     currentlyInFocus.pos[0] + Math.round(currentlyInFocus.width / 2) - currentlyInFocus.name.length() * 4,
                     currentlyInFocus.pos[1] + Math.round(currentlyInFocus.height / 2));
-        }
 
+            g.drawString(currentlyInFocus.troops + "",
+                    currentlyInFocus.pos[0] + Math.round(currentlyInFocus.width / 2) - currentlyInFocus.name.length() * 4,
+                    currentlyInFocus.pos[1] + Math.round(currentlyInFocus.height / 2) + 20);
+        }
         /* stats */
 
         Player humanPlayer = getHumanPlayer();
 
         g.setColor(new Color(216, 225, 224));
-        g.drawString("reinforcements: " + humanPlayer.reinforcements, 10, FRAME_HEIGHT / 2);
+        g.drawString("reinforcements: " + humanPlayer.reinforcements, 10, FRAME_HEIGHT / 2  - 200);
+
+        for (int i = 0; i < actions.size(); i++) {
+            Action action = actions.get(i);
+
+            g.drawString((i + 1) + "", 6, FRAME_HEIGHT / 2 + 100 + 20 * i);
+            g.drawString(action.describe(), 18, FRAME_HEIGHT / 2 + 100 + 20 * i);
+        }
     }
 
     public void advance() {
+        actions = Action.mergeActions(actions);
+
+        // first add reinforcement troops
+        for (Action action : actions) {
+            if (action.type == Action.TYPE_REINFORCE) {
+                action.territory.troops += action.troops;
+            }
+        }
+
+
+        for (Action action : actions) {
+            if (action.type == Action.TYPE_ATTACK) {
+                int winner = RiskCalculator.calculate(action.troops, action.territory.troops);
+
+                System.out.println("conflict");
+                if (winner == RiskCalculator.DEFENDER) {
+                    System.out.println("attacker winds");
+                    action.territory.setOwner(action.player);
+                    action.territory.troops = Math.round(action.troops / 2);
+                }
+                else {
+                    System.out.println("defender winds");
+                    action.territory.troops = Math.round(action.territory.troops / 2);
+                }
+            }
+        }
+
         for (Player player : players) {
-            player.reinforcements += 6;
+            player.reinforcements += 4;
+
+            float extraReinforcements = 0;
+            for (Territory territory : territories) {
+                if (territory.owner == player) {
+                    extraReinforcements += 0.256;
+                }
+            }
+
+            player.reinforcements += Math.round(extraReinforcements);
+
+            if (player.isAI) {
+                aiTurn(player);
+            }
         }
 
         round++;
 
         redraw();
         refresh();
+    }
+
+    void aiTurn(Player player) {
+        int reinforcementTroops = Math.round(player.reinforcements / 20);
+        int attackTroops = player.reinforcements - reinforcementTroops;
+
+        for (Territory territory : territories) {
+            if (territory.owner == player) {
+                if (reinforcementTroops != 0 && (new Random()).nextBoolean()) {
+                    actions.add(Action.reinforce(territory, 1));
+                    player.reinforcements--;
+                }
+            }
+            else if ((new Random()).nextInt(4) == 3) {
+                // 1 / 5 chance of not doing anything
+            }
+            else if (territory.isNeighbouringTerritoryOfPlayer(player)) {
+                if (attackTroops > territory.troops * 2 && attackTroops > 1) {
+                    actions.add(Action.attack(player, territory, attackTroops));
+                    attackTroops = 0;
+                    player.reinforcements -= attackTroops;
+                }
+            }
+        }
     }
 
     private Territory getRandomTerritory() {
@@ -347,8 +432,6 @@ public class Game extends JFrame {
 
             Territory territory = new Territory(i, name, position, img);
 
-
-
             territories.add(territory);
         }
 
@@ -365,14 +448,13 @@ public class Game extends JFrame {
             ArrayList<Territory> neighbours = new ArrayList<Territory>();
 
             for (int j = 0; j < neighboursJsonArray.length(); j++) {
-                String name = neighboursJsonArray.getString(0);
+                String name = neighboursJsonArray.getString(j);
 
                 neighbours.add(territoryHashMap.get(name));
             }
 
             territories.get(i).neighbours = neighbours;
         }
-
     }
 
     public void start() {

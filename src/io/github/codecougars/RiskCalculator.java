@@ -9,7 +9,7 @@ public class RiskCalculator
 
     public static int calculate(int attackSize, int defendSize) {
         if (attackSize <= 1) {
-            throw new Error("Can't attack. Need more than 1 attacker.");
+           return DEFENDER;
         }
 
         Random rn = new Random();

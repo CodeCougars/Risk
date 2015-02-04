@@ -3,7 +3,9 @@ package io.github.codecougars;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferByte;
+import java.net.NetworkInterface;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * Created by as on 13/01/15.
@@ -19,6 +21,7 @@ public class Territory {
     public int troops;
 
     public ArrayList<Territory> neighbours;
+    HashMap<String, Territory> neighboursHashmap = new HashMap<String, Territory>();
 
     static Color DEFAULT_COLOR = new Color(133, 148, 133);
 
@@ -74,5 +77,13 @@ public class Territory {
         owner = player;
 
         setColor(player.color);
+    }
+
+    public boolean isNeighbouringTerritoryOfPlayer(Player player) {
+        for (Territory territory : neighbours) {
+            if (territory.owner == player)
+                return true;
+        }
+        return false;
     }
 }
