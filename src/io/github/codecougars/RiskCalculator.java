@@ -43,10 +43,10 @@ public class RiskCalculator
         }
 
         if (attackerWins > defenderWins) {
-            return ATTACKER;
+            return DEFENDER;
         }
         else {
-            return DEFENDER;
+            return ATTACKER;
         }
     }
 }

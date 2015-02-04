@@ -11,18 +11,20 @@ public class Action {
     public static int TYPE_ATTACK = 0;
     public static int TYPE_REINFORCE = 1;
 
+    public int round;
     public int type;
     public Player player;
     public Territory territory; // territory to defend or target of attack
-    int troops;
+    public int troops;
 
     public Action Action() {
         return this;
     }
 
-    public static Action attack(Player p, Territory territory, int troops) {
+    public static Action attack(int round, Player p, Territory territory, int troops) {
         Action a = new Action();
 
+        a.round = round;
         a.type = TYPE_ATTACK;
         a.troops = troops;
         a.player = p;
@@ -31,9 +33,10 @@ public class Action {
         return a;
     }
 
-    public static Action reinforce(Territory territory, int troops) {
+    public static Action reinforce(int round, Territory territory, int troops) {
         Action a = new Action();
 
+        a.round = round;
         a.type = TYPE_REINFORCE;
         a.territory = territory;
         a.player = territory.owner;
@@ -53,7 +56,7 @@ public class Action {
         for (Action action : actions) {
             boolean found = false;
             for (Action a : mergedActions) {
-                if (a.player == action.player && a.territory == action.territory) {
+                if (a.round == action.round && a.player == action.player && a.territory == action.territory) {
                     a.troops += action.troops;
                     found = true;
                 }
@@ -65,29 +68,5 @@ public class Action {
         }
 
         return mergedActions;
-    }
-
-    /*
-    public static ArrayList<Conflict> getConflictingActions(List<Action> actions) {
-        ArrayList<Conflict> conflicts = new ArrayList<Conflict>();
-
-        for (Action action : actions) {
-            if (conflicts.)
-        }
-
-        return conflicts;
-    }
-    */
-
-    public class Conflict {
-        Player attacker;
-        Player defender;
-        int defenderTroops;
-        int attackerTroops;
-        Territory territory;
-
-        public Conflict() {
-
-        }
     }
 }
